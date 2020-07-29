@@ -29,4 +29,7 @@ public class BankService {
     public Mono delete(String id){
         return bankRepository.deleteById(id);
     }
+
+    public Flux<Bank> getByCustomerId(String customerId){return bankRepository.findByCustomerId(customerId);}
+
 }

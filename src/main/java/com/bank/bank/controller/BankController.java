@@ -41,5 +41,8 @@ public class BankController {
         return bankService.delete(bankId);
     }
 
-
+    @GetMapping("/customer/{customerId}")
+    public Flux<Bank> findByCustomer(@PathVariable("customerId") String customerId) {
+        return bankService.getByCustomerId(customerId);
+    }
 }
