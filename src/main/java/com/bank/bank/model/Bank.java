@@ -18,7 +18,7 @@ public class Bank {
     public String name;
     public List<String> customerId;
 
-    public Bank(){
+    public Bank() {
         super();
     }
 

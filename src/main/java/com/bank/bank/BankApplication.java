@@ -9,8 +9,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 public class BankApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BankApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BankApplication.class, args);
+    }
 
 }
